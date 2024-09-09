@@ -1,8 +1,7 @@
-CREATE TABLE Produto
-(
-    id int PRIMARY KEY NOT NULL,
-    name varchar(255),
-    description varchar(255),
-    price float,
-    
-)
+CREATE TABLE Product (
+     id bigint PRIMARY KEY AUTO_INCREMENT,
+     name varchar(255),
+     description varchar(255),
+     price decimal(10, 2),
+     quantity int
+);
